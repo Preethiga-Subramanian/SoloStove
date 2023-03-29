@@ -1,0 +1,29 @@
+.infoBar{
+  background-color: #5072A7;
+  color:white;
+}
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.search{
+  position: relative;
+  width:300px;
+  }
+
+  .search input{
+   text-indent: 25px;
+   border: 2px solid #d6d4d4;
+  }
+  .search .bi-search{
+    position: absolute;
+    top: 10px;
+    left: 16px;
+   }
